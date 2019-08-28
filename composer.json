@@ -1,0 +1,23 @@
+{
+  "name": "shenyi/swoolepro",
+  "require-dev": {
+    "nikic/fast-route": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/http/Controllers/base.php",
+      "app/functions.php",
+      "app/http/Middlewares.php",
+      "app/WaitGroup.php"
+    ]
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
